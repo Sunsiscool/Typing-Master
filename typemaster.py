@@ -25,3 +25,10 @@ for target_word in game_words:
         mistakes += 1
     
     print(f"Current Mistakes: {mistakes}")
+
+    total_words = len(game_words)
+accuracy = (correct_count / total_words) * 100
+
+print("\n--- Theeee Final Results ---")
+print(f"Accuracy: {accuracy}%")
+print(f"Total Mistakes: {mistakes}")
